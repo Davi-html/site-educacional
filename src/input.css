@@ -1,0 +1,469 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    ul {
+        display: none ;
+    }
+}
+
+.men {
+    font-size: 40px;
+}
+
+
+@media (min-width: 768px) {
+    .men {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-main {
+        display: none;
+    }
+
+    h1 {
+        font-size:10px ;
+    }
+}
+
+@media (max-width: 408px) {
+    .p-item p {
+        font-size: 12px;
+    }
+
+    h1.text-4xl {
+        font-size: 30px;
+        line-height: 2rem;
+        margin-top: 14px;
+    }
+
+    .grid-cols-2 {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 938px) {
+    .div-texto  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .card h1 {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .div-texto {
+        display: flex;
+
+    }
+}
+
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+.img-main {
+    background-image: url(/assets/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#p-section{
+    margin-bottom: 16px;
+    color: #545252;
+    font-size: 16px;
+}
+
+.botao-sec {
+    background-color: #3179D7;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+.card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.matricular{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.div-matricular {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#p-div-matricular {
+    color: #545252;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 514px){
+
+    .matricular img {
+        width: 200px;
+        height: 300px;
+    }
+
+
+    .matricular {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.texto-professor {
+    color: #545252;
+    max-width: 1340px;
+}
+
+.professor1 {
+    background-image: url(/assets/professor1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor2 {
+    background-image: url(/assets/professor2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor3 {
+    background-image: url(/assets/professor3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor4 {
+    background-image: url(/assets/professor4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor5 {
+    background-image: url(/assets/professor5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor6 {
+    background-image: url(/assets/professor6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor7 {
+    background-image: url(/assets/professor7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.professor8 {
+    background-image: url(/assets/professor8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8 {
+    height: 453px;
+}
+
+
+@media (max-width: 1286px){
+    .container {
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 453px 453px;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .texto-professor {
+        color: #545252;
+        max-width: 1025px;
+    }
+}
+
+@media (max-width: 635px){
+    .container {
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 453px 453px 453px 453px;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .texto-professor {
+        color: #545252;
+        max-width: 1025px;
+    }
+}
+
+footer {
+    height: 544px;
+    background-color: #3179D7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp {
+    height: 183px;
+    max-width: 900px;
+    background-color: white;
+    position: absolute;
+    top: -15%;
+    display: flex;
+}
+
+.whatsapp h1 {
+    font-size: 32px;
+}
+
+.whatsapp p {
+    max-width: 312px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.what1 {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.what2 {
+    margin-left: 60px;
+    width: 232px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .sec-professor {
+        margin-bottom: 150px;
+    }
+
+    footer {
+        height: 400px;
+    }
+}
+
+@media (max-width: 724px){
+    .whatsapp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .what2 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .what2 a {
+        margin-right: 0px;
+    }
+
+    .what1 {
+        margin-right: 16px;
+    }
+    .whatsapp h1 {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 340px){
+    .whatsapp h1 {
+        font-size: 29px;
+    }
+}
+
+
+
+
+.x-login {
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.div-input input {
+    height: 50px;
+    padding: 14px;
+    border: #545252 1px solid;
+    border-radius: 10px;
+} 
+
+.div-lembrar-senha {
+    display: flex;
+}
+
+.botao-login {
+    width: 70%;
+    height: 40px;
+    color: white;
+    border-radius: 16px;
+}
+
+
+.form-modal1 {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 16px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.div-formulario {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+@media (max-width: 400px){
+    .div-lembrar-senha {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .esqueceu-senha {
+        display: flex;
+        margin-left: 16px;
+    }
+
+    .form-modal1 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 16px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate( -50%, -50%);
+    }
+}
+
+
+
+.form-modal2 {
+    width: 310px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 16px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}

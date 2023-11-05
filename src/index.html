@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Educacional</title>
+  </head>
+  <body class="bg-fundo">
+    <header>
+      <nav class="md:flex flex bg-color-white shadow p-3 items-center">
+        <img
+          class="cursor-pointer md:mr-auto mr-auto ml-4"
+          src="/assets/logo-header.png"
+          alt=""
+        />
+        <i class="bi bi-list men" onclick="menu()"></i>
+        <ul
+          class="md:flex absolute md:static left-0 md:w-auto w-full items-center md:pl-0 pl-7 md:py-0 py-4 top-0 mt-85px md:my-0 bg-fundo font-bold" 
+        >
+          <li class="mx-4 my-4 md:my-0">
+            <a href="" class="hover:underline hover:text-colorHover">Home</a>
+          </li>
+          <li class="mx-4 my-4 md:my-0">
+            <a class="hover:underline hover:text-colorHover" href="">Sobre</a>
+          </li>
+          <li class="mx-4 my-4 md:my-0">
+            <a class="hover:underline hover:text-colorHover" href="">Cursos</a>
+          </li>
+          <li class="mx-4 my-4 md:my-0">
+            <a class="hover:underline hover:text-colorHover" href=""
+              >Instrutores</a
+            >
+          </li>
+          <li class="mx-4 my-4 md:my-0">
+            <a class="hover:underline hover:text-colorHover" href="">Contato</a>
+          </li>
+          <button class="bg-colorHover text-white mx-4 my-4 md:my-0 px-7 py-1 login">
+            Login
+          </button>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="md:grid grid-cols-2 gap-4 mx-12 md:h-screen md:mt-0 mt-24">
+        <div class="flex flex-col justify-center">
+          <div class="flex gap-4 p-item">
+            <p class="py-1 bg-green text-white px-4 font-bold">50% OFF</p>
+            <p class="text-green font-bold">COMECE HOJE MESMO</p>
+          </div>
+          <div>
+            <h1 class="md:text-6xl text-4xl mb-4">
+              Estude onde e quando quiser
+            </h1>
+            <p style="max-width: 542px; color: #545252; font-size: 16px">
+              Aprenda a inovar e alcance seus objetivos com nossa escola de
+              cursos de tecnologia de ponta.
+            </p>
+          </div>
+
+          <a href="" class="text-white py-3 px-2 bg-blue-600 w-fit mt-4"
+            >Conheça os cursos<i class="bi bi-arrow-right-short ml-4"></i
+          ></a>
+        </div>
+        <div class="img-main"></div>
+      </div>
+    </section>
+
+    <main class="h-auto mx-12 cursos">
+      <h1 class="text-center text-2xl md:text-4xl mb-32 md:mt-4 mt-24">
+        CURSOS EM DESTAQUE
+      </h1>
+      <div class="grid md:grid-cols-4 grid-cols-1 gap-4 cursos-grid">
+        <div class="bg-white card">
+          <img src="/assets/curso1.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso2.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso3.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso4.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-4 grid-cols-1 gap-4 mt-7 curso-grid">
+        <div class="bg-white card">
+          <img src="/assets/curso5.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso6.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso7.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-white card">
+          <img src="/assets/curso8.png" alt="" />
+          <h1 class="font-bold text-xs md:text-base">
+            Análise e desenvolvimento de sistemas
+          </h1>
+          <div class="flex justify-between mt-4 div-texto">
+            <p class="font-bold">R$ 299,00</p>
+            <div class="flex div-estrela">
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+              <img src="/assets/estrela.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="h-screen m-14 matricular">
+      <div>
+        <img src="/assets/FotoLogin2_1 1.png" alt="" />
+      </div>
+      <div class="div-matricular">
+        <h1 class="md:text-4xl text-xl">
+          Construa seu futuro em uma das melhor escolas de tecnologia do Brasil
+        </h1>
+        <p id="p-div-matricular" class="md:text-base text-xs">
+          Nossa escola de cursos de tecnologia oferece programas de formação de
+          alta qualidade para ajudar os alunos a alcançarem seus objetivos e se
+          destacarem no mercado. Com uma equipe de instrutores altamente
+          qualificados e tecnologias avançadas, nós preparamos nossos alunos
+          para o futuro da tecnologia.
+        </p>
+        <a class="py-2 px-1 bg-blue-600 text-white w-fit matricular">Matricular agora!</a>
+      </div>
+    </section>
+
+    <section class="h-auto flex justify-center sec-professor">
+      <div class="container">
+        <div class="bg-slate-500 div1 professor1">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Emily Davis
+          </p>
+        </div>
+        <div class="bg-red-700 div2 professor2">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Sarah Smith
+          </p>
+        </div>
+        <div class="bg-orange-500 div3 professor3">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Amanda Taylor
+          </p>
+        </div>
+        <div class="bg-lime-800 div4 professor4">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Jennifer Wilson
+          </p>
+        </div>
+        <div>
+        </div>
+      </div>
+    </section>
+    <p class="text-center texto-professor mx-auto my-5">
+      Nossos professores são os melhores do mercado, com anos de experiência e
+      conhecimento profundo em suas áreas de especialização. Eles estão
+      comprometidos em fornecer aos nossos alunos a melhor educação possível,
+      com uma abordagem inovadora e personalizada para o ensino. Venha
+      descobrir por si mesmo por que nossos professores são considerados os
+      melhores do setor.
+    </p>
+
+    <section class="h-auto flex justify-center sec-professor md:mb-60">
+      <div class="container">
+        <div class="bg-slate-500 div5 professor5">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Emily Davis
+          </p>
+        </div>
+        <div class="bg-red-700 div6 professor6">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Sarah Smith
+          </p>
+        </div>
+        <div class="bg-orange-500 div7 professor7">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Amanda Taylor
+          </p>
+        </div>
+        <div class="bg-lime-800 div8 professor8">
+          <p class="px-8 py-1 bg-white w-fit text-2xl font-bold h-fit mb-6">
+            Jennifer Wilson
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="whatsapp">
+        <div class="what1">
+          <h1 class="text-center">Preparado para começar sua jornada?</h1>
+          <p>Clique no botão ao lado para conversar com um de nossos atendentes.</p>
+        </div>
+        <div class="what2 ">
+          <a href="" class="flex pl-8 py-1 bg-green text-white h-fit mr-6">Falar com consultor <img src="/assets/whatsapp.svg" class="ml-3 pr-5"></a>
+        </div>
+      </div>
+    </footer>
+    <dialog close>
+      <div class="div-formulario">
+        <form action="" class=" bg-white form-modal1">
+          <h1 class="font-bold text-3xl ml-4 mt-4 text-center flex">ACESSAR <img src="/assets/x-lg.svg" class="ml-auto x-login" width="40px" height="30px"></h1>
+          <div class="div-input">
+            <label for="email" class="font-bold w-fit">Seu email</label>
+            <input type="email" name="email" id="email" placeholder="nome@gmail.com">
+          </div>
+          <div class="div-input">
+            <label for="password" class="font-bold w-fit">Sua senha</label>
+            <input type="password" name="password" id="password" placeholder="**********">
+          </div>
+          <div class="ml-4 div-lembrar-senha">
+            <div>
+              <input type="checkbox" name="lembrar" id="lembrar">
+              <label for="lembrar" class="font-bold ml-2">Lembrar senha</label>
+            </div>
+            <div class="ml-auto mr-4 esqueceu-senha">
+              <a href="" class="text-blue-600">Esqueceu a senha?</a>
+            </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="bg-blue-600 botao-login">Login</button>
+          </div>
+          <div class="ml-4 mb-5">
+            <p>
+              Não é registrado? <a href="" class="text-blue-600 font-bold">Criar conta</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog close class="dialog2">
+      <div class="div-formulario">
+        <form action="" class=" bg-white form-modal2">
+          <h1 class="font-bold text-3xl ml-4 mt-4 text-center flex">Matricule-se <img src="/assets/x-lg.svg" class="ml-auto x-login1" width="40px" height="30px"></h1>
+          <div class="div-input">
+            <label for="email" class="font-bold w-fit">Email</label>
+            <input type="email" name="email" id="email" placeholder="nome@gmail.com">
+          </div>
+          <div class="div-input">
+            <label for="password" class="font-bold w-fit">Nome</label>
+            <input type="password" name="password" id="password" placeholder="John doe">
+          </div>
+          <div class="div-input">
+            <label for="number" class="font-bold w-fit">Telefone</label>
+            <input type="number" name="number" id="number" placeholder="(xx) x xxxx-xxxx">
+          </div>
+          <div class="flex justify-center items-center mb-4">
+            <button class="bg-blue-600 botao-login">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
