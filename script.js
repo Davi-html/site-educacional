@@ -24,7 +24,7 @@ fecharModal.onclick = function(){
 }
 
 
-const botaoMatricular = document.querySelector('.matricular')
+const botaoMatricular = document.querySelector('.matricular-buttom')
 const modalMatricular = document.querySelector('.dialog2')
 const fecharModal1 = document.querySelector('.x-login1') 
 

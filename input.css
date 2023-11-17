@@ -239,6 +239,7 @@
     grid-template-columns: 300px 300px 300px 300px;
     gap: 16px;
     justify-content: center;
+    margin: auto;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8 {
@@ -272,6 +273,7 @@
         grid-template-rows: 453px 453px 453px 453px;
         gap: 16px;
         justify-content: center;
+        margin:auto
     }
 
     .texto-professor {
@@ -325,7 +327,13 @@ footer {
 
 @media (max-width:768px){
     .sec-professor {
-        margin-bottom: 150px;
+        margin-bottom: 0px;
+    }
+
+    #instrutores-h1 {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     footer {
@@ -466,4 +474,16 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate( -50%, -50%);
+}
+
+.sec-professor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#instrutores-h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
